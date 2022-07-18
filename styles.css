@@ -1,0 +1,295 @@
+*{
+  padding: 0;
+  margin: 0;
+  font-family: 'Open Sans';
+  box-sizing: border-box;
+}
+
+.first{
+  background-image: url('assets/images/background.svg') ;
+  background-size: cover;
+  height: 95vh;
+}
+
+.topbar{
+  position: fixed;
+  display: flex;
+  justify-content: space-between;
+  background-color: #772D8B;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  top: 0;
+  width: 100%;
+}
+
+.socialicon{
+  margin: 10px 12px;
+}
+.socialicon img{
+  padding: 5px;
+}
+
+.toptext{
+  display: flex;
+  align-items: center;
+  
+}
+
+.toptext p{
+  font-size: 14px;
+  font-weight: 400;
+}
+
+.join{
+  color: #FFC42D;
+  margin-right: 27px;
+}
+
+.finddiv{
+  display: flex;
+  cursor: pointer;
+}
+
+.finddiv img{
+  margin-right: 12px;
+}
+
+.find{
+  color: #FFFFFF;
+}
+
+.nav{
+  display: flex;
+  justify-content: space-between;
+  background-color: rgba(0, 0, 0, 0.26);
+  margin-top: 50px;
+}
+
+.navlogo{
+  display: flex;
+}
+
+.navlogo img{
+  width: 119px;
+  height: 79px;
+}
+
+.logotext{
+  margin: 24px;
+}
+
+.logotext h6{
+  color: #FFFFFF;
+  font-size: 14px;
+}
+
+.tel{
+  color: #FFC42D;
+  margin-left: 30px;
+}
+
+.link{
+  margin: 25px 12px;
+}
+
+.link a{
+  color: white;
+  font-size: 14px;
+  text-decoration: none;
+  padding: 16px;
+}
+
+.link button{
+  background: #EE2B7A;
+  border-radius: 5px;
+  color: white;
+  padding: 8px 23px;
+  font-size: 14px;
+  cursor: pointer;
+  border: none;
+  margin-left: 30px;
+}
+
+.mainbody{
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 150px;
+  padding: auto 68px
+}
+
+.bodytext{
+  margin-right: 300px;
+}
+
+.bodytext h2{
+  color: #FFFFFF;
+  font-size: 66px;
+  font-weight: 300;
+  /* Line-height: 102px */
+}
+
+.bodytext h2 span {
+  font-size: 40px;
+  font-weight: 300;
+  /* Line-height: 62px */
+}
+
+.bodylog{
+  background: rgba(55, 55, 55, 0.79);
+  padding: 20px;
+  border-radius: 5px;
+  margin-top: -28px;
+}
+
+.input{
+  display: flex;
+  flex-direction: column;
+  align-items:center;
+}
+
+.bodylog h3{
+  font-size: 18px;
+  color: #FFFFFF;
+  margin-left: 8px;
+}
+.input input{
+  width: 267px;
+  height: 45px;
+  border-radius: 4px;
+  margin-top: 10px;
+  padding: 10px;
+  outline: none;
+  border: none;
+}
+
+.input input::placeholder{
+  color: #848484;
+  font-size: 14px;
+}
+
+.password{
+  color: #B6C4DA;
+  font-size: 12px;
+  line-height: 16px;
+  margin: 10px 0px 40px 180px;
+}
+
+.bodylog button{
+  background-color: #EE2B7A;
+  color: white;
+  font-size: 14px;
+  width: 267px;
+  height: 45px;
+  border-radius: 4px;
+  margin-top: 10px;
+  padding: 10px;
+  cursor: pointer;
+  border: none;
+  margin-left: 8px;
+}
+
+.signup{
+  font-size: 12px;
+  line-height: 16px;
+  color: #F8F5F5;
+  margin: 18px 60px;
+}
+.signup span{
+  color: #EE2B7A;
+}
+
+.second{
+  padding: 34px 68px
+}
+
+.about{
+  display: flex;
+  justify-content: space-evenly;
+  
+}
+
+.about-text h4{
+  color: #995AAA;
+  font-size: 14px;
+  margin-top: 115px;
+}
+
+.about-text h2 {
+  color: #474747;
+  font-size: 40px;
+}
+
+.about-text p{
+  font-size: 14px;
+}
+
+.about-img img{
+  width: 593px;
+  height: 469px;
+  margin-left: 20px;
+}
+.service-header{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 87px;
+}
+
+.service-header h4{
+  text-transform: uppercase;
+  font-size: 14px;
+  font-weight: 600;
+  color: #995AAA;
+}
+
+.service-header h5{
+  font-weight: 300;
+  font-size: 40px;
+  color: #474747;
+  
+}
+
+.service-icon{
+  display: flex;
+  justify-content: space-between;
+  margin: 100px 45px;
+}
+
+.service-icon article {
+  box-shadow: 2px 4px 26px rgba(0, 0, 0, 0.07);
+  width: 271px;
+}
+
+.center-image {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  margin-top: 29px;
+}
+
+.image-bg{
+  background-color: #772D8B;
+  padding: 18px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 50%;
+}
+
+.center-text h5{
+  font-size: 18px;
+  color: #565656;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 76px 0 26px;
+}
+
+.center-text p{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 14px;
+  padding: 12px;
+  margin-bottom: 50px;
+}
+
